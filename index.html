@@ -11,7 +11,7 @@
 	<div class="ui grid">
 		<div class="three column row">
 			<div class="column zm-left-sidebar">
-				<div class="ui left demo vertical sidebar labeled icon menu hide">
+				<!-- <div class="ui left demo vertical sidebar labeled icon menu ">
 					<a class="item">
 						<i class="home icon"></i>
 						Home
@@ -24,8 +24,8 @@
 						<i class="smile icon"></i>
 						Friends
 					</a>
-				</div>
-				<div class="ui vertical menu hide">
+				</div> -->
+				<!-- <div class="ui vertical menu hide">
 					<a class="teal item active">
 						Inbox
 						<div class="ui teal left pointing label">1</div>
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="ui vertical menu">
+ -->				<div class="ui left vertical menu">
 					<div class="item">
 						<div class="ui input"><input type="text" placeholder="Search..."></div>
 					</div>
@@ -90,8 +90,8 @@
 	<script type="text/javascript" src="assets/semantic.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.ui.sidebar').sidebar('setting','closable', false).sidebar('toggle')
-			;
+			$('.ui.sidebar').sidebar('setting','closable', false).sidebar('toggle');
+			$('.ui.dropdown').dropdown();
 		});
 	</script>
 </body>
