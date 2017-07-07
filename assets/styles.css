@@ -1,10 +1,69 @@
-/* Container Menubar */
-.zm-left-sidebar{
+/* Zamaa Customized Styles CSS */
 
+/*Header Class Starts*/
+.zm-header{
+	height: 14% !important;
+	background: #0072BC;
 }
-.zm-slider{
+.zm-header-top{
+	height: 8% !important;
+	background: #0072BC;
+	color: white;
+}
+header.zm-header img{
+	height: 100%;
+	margin-top: -4%;
+	margin-left: 10%;
+	/*float: left;*/
+	width: 65%;
+}
+input[type="search"].zm-search{
+	width: 100% !important;
+	float: left !important;
+	margin-left: -25% !important;
+	height: 48px;
+}
+.zm-search-dropdown{
+	height: 48px;
+	/*margin-top: 4% !important;*/
+}
+.zm-submit{
+	height: 48px;
+	/*margin-top: 4% !important;*/
+	background: #EEC01D !important;
+}
+.zm-submit .search{
+	color: white;
+}
+.zm-side-header{
+	float:left !important;
+	padding-left: 13% !important;
+	color: white;
+	/*text-align: right;*/
+	margin-top: 1% !important;
+}
+.zm-side-header .cart{
+	font-size: 50px;
+	margin-right: -12px !important;
+}
+.zm-side-header span{
+	font-size: 20px;
+}
+.zm-header-top-right{
+	float: right !important;
+	margin-top: 1% !important;
+	margin-right: 3% !important;
+}
+.zm-header-top-right .item{
+	font-size: 20px !important;
+}
+.zm-search-box{
+	width: 46% !important;
+}
+/*Heading Class Ends*/
 
+/*Container Class Stars*/
+.zm-container{
+	margin-top: 20px;
 }
-.zm-right-sidebar{
-	
-}
+/*Container Class Ends*/

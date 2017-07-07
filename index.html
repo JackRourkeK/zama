@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Zama E-Commerce Website</title>
+	<title>Zamaa E-Commerce Website</title>
 	<link rel="stylesheet" type="text/css" href="assets/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
 </head>
 <body>
-	<header class="">
-		This is Header
-	</header>
-	<div class="ui grid">
+	<header class="ui grid zm-header-top">
+		<div class="row">
+			<div class="column">
+				<div class="ui horizontal list zm-header-top-right">
+					<div class="item">Buyer Protection</div>
+					<div class="item">Help</div>
+					<div class="item">Blogs</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<header class="ui grid zm-header">
+		<div class="row">
+			<div class="zm-header-bg" style="width: 34% !important;">
+				<img src="assets/img/bg.png" alt="Zama E-Commerce Website">
+			</div>
+			<div class="zm-search-box" style="width: 32% !important;">
+				<form action="#" method="post" name="zm-search-form" class="">
+					<div class="ui action input">
+						<input type="search" class="zm-search" placeholder="I'm Looking For...">
+						<select class="ui floating button dropdown zm-search-dropdown">
+							<option value="all">All</option>
+							<option value="articles">Articles</option>
+							<option value="products">Products</option>
+						</select>
+						<div type="submit" class="ui button zm-submit"><i class="ui icon search"></i></div>
+					</div>
+				</form>
+			</div>
+			<div class="ui zm-side-header">
+				<div class="ui horizontal list">
+					<div class="item">
+						<i class="ui icon cart"></i><span>Cart</span>
+					</div>
+					<div class="item"><span>Register</span></div>
+					<div class="item"><span>Login</span></div>
+				</div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<div class="ui container zm-container">
+		<div class="ui grid">
 		<div class="three column row">
 			<div class="column zm-left-sidebar">
 				<!-- <div class="ui left demo vertical sidebar labeled icon menu ">
@@ -86,13 +125,18 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/semantic.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.ui.sidebar').sidebar('setting','closable', false).sidebar('toggle');
-			$('.ui.dropdown').dropdown();
-		});
-	</script>
+	</div>
 </body>
+<script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/semantic.min.js"></script>
+<script>
+	$('.ui.dropdown').dropdown();
+	$(document).ready(function(event) {
+		$('form[name=zm-search-form]').submit(function(event){
+			event.preventDefault();
+		});
+		$('.ui.sidebar').sidebar('setting','closable', false).sidebar('toggle');
+			$('.ui.dropdown').dropdown();
+	});
+</script>
 </html>
