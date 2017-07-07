@@ -66,4 +66,25 @@ input[type="search"].zm-search{
 .zm-container{
 	margin-top: 20px;
 }
+.zm-slider img{
+	/*background: red;*/
+	width: 100% !important;
+}
+.bx-viewport img{
+	min-height: 440px !important;
+}
+.ui.vertical.menu{
+	height: 448px !important;
+}
+.zm-right-left-sidebar{
+	height: 448px !important;
+	background: #F9FEDE;
+	border: 1px solid ##F9FEDE;
+	-webkit-box-shadow: 0 0 8px 0 #DEDEDE;
+	box-shadow: 0 0 8px 0 #DEDEDE;
+}
+.zm-right-left-sidebar img{
+	width: 100% !important;
+	height: 100%;
+}
 /*Container Class Ends*/
