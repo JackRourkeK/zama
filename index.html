@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/semantic.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/jquery.bxslider/jquery.bxslider.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.theme.default.min.css">
 </head>
 <body>
 	<header class="ui grid zm-header-top">
@@ -148,11 +150,70 @@
 				</div>
 			</div>
 		</div>
+		<div class="ui row zm-ad-flash-deals">
+			<div class="ui grid four column  zm-ad-middle">
+				<div class="column zm-ad-mid-year">
+					<img src="assets/img/ad-mid-year.png">
+				</div>
+				<div class="column zm-win-watch">
+					WATCH AND WIN
+				</div>
+				<div class="zm-ad-product-reviews">
+					999+ PRODUCT REVIEWS. <br>
+					90+ SHOWS. 9 DAYS.
+				</div>
+				<div class="column zm-ad-product-right">
+					<img src="assets/img/ad-14.png">
+					June 14-23
+				</div>
+			</div>
+			<div class="ui grid column zm-flash-deals">
+
+			</div>
+			<div class="ui zm-flash-products">
+				<div class="owl-carousel">
+					<div class="item">
+						<h2>Swipe</h2>
+					</div>
+					<div class="item">
+						<h2>Drag</h2>
+					</div>
+					<div class="item">
+						<h2>Responsive</h2>
+					</div>
+					<div class="item">
+						<h2>CSS3</h2>
+					</div>
+					<div class="item">
+						<h2>Fast</h2>
+					</div>
+					<div class="item">
+						<h2>Easy</h2>
+					</div>
+					<div class="item">
+						<h2>Free</h2>
+					</div>
+					<div class="item">
+						<h2>Upgradable</h2>
+					</div>
+					<div class="item">
+						<h2>Tons of options</h2>
+					</div>
+					<div class="item">
+						<h2>Infinity</h2>
+					</div>
+					<div class="item">
+						<h2>Auto Width</h2>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/semantic.min.js"></script>
 <script type="text/javascript" src="assets/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="assets/owl/owl.carousel.min.js"></script>
 <script>
 	$('.ui.dropdown').dropdown();
 	$(document).ready(function(event) {
@@ -167,4 +228,22 @@
 		});
 	});
 </script>
+<script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
 </html>

@@ -88,3 +88,50 @@ input[type="search"].zm-search{
 	height: 100%;
 }
 /*Container Class Ends*/
+
+.column.zm-ad-middle{
+	height: 50px !important;
+	background: #644FA0;
+	margin-bottom: 20px;
+	margin: 0 10px 0 10px;
+}
+.column.zm-win-watch{
+	color: #EC118E;
+	text-align: center;
+	font-weight: 900;
+	font-size: 28px;
+	text-shadow: 0px 0px 5px rgba(85, 112, 160, 1);
+}
+.zm-ad-product-reviews{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.zm-ad-product-right{
+	color: white;
+	font-weight: bold;
+}
+.zm-ad-product-right img{
+	vertical-align: middle;
+	height: 50px;
+	width: auto;
+	margin-top: -14px;
+}
+.zm-ad-mid-year img{
+	vertical-align: middle;
+	height: 50px;
+	width: auto;
+	float: right;
+	margin-top: -14px;
+}
+.zm-flash-deals.column{
+	border-top: #E93B36 2px solid;
+	margin: 0 10px 0 10px;
+}
+.ui.row.zm-ad-flash-deals{
+	background: #EDEFEF;
+}
+.zm-flash-deals{
+	height: 50px;
+}
