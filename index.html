@@ -168,10 +168,9 @@
 				</div>
 			</div>
 			<div class="ui grid column zm-flash-deals">
-
 			</div>
-			<div class="ui zm-flash-products">
-				<div class="owl-carousel">
+			<div class="ui grid zm-flash-products">
+				<div class="owl-carousel" style="display: none;">
 					<div class="item">
 						<h2>Swipe</h2>
 					</div>
@@ -206,6 +205,15 @@
 						<h2>Auto Width</h2>
 					</div>
 				</div>
+
+				<div class="zm-flash-deals-top">
+				asdf
+				</div>
+				<div class="">ASDF</div>
+				<div class="">ASDF</div>
+			</div>
+			<div class="ui grid zm-tech-delivery">
+				
 			</div>
 		</div>
 	</div>
@@ -229,21 +237,24 @@
 	});
 </script>
 <script>
-      var owl = $('.owl-carousel');
-      owl.owlCarousel({
-        margin: 10,
-        loop: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 2
-          },
-          1000: {
-            items: 3
-          }
-        }
-      })
-    </script>
+	var owl = $('.owl-carousel');
+	owl.owlCarousel({
+		margin: 10,
+		loop: true,
+		mouseDrag:false,
+		nav:true,
+		navText:['next','prev'],
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			1000: {
+				items: 3
+			}
+		}
+	})
+</script>
 </html>

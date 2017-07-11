@@ -65,6 +65,7 @@ input[type="search"].zm-search{
 /*Container Class Stars*/
 .zm-container{
 	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .zm-slider img{
 	/*background: red;*/
@@ -134,4 +135,21 @@ input[type="search"].zm-search{
 }
 .zm-flash-deals{
 	height: 50px;
+}
+.zm-flash-products{
+	height: 340px;
+	background: red;
+	margin-bottom: 20px !important;
+}
+.zm-tech-delivery{
+	height: 340px;
+	background: blue;
+	margin-bottom: 20px !important;
+}
+.zm-flash-deals-top{
+	height: 50px;
+	background: gray;
+	float: left;
+	clear: both;
+	width: 100%;
 }
