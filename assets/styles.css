@@ -141,10 +141,11 @@ input[type="search"].zm-search{
 	background: red;
 	margin-bottom: 20px !important;
 }
-.zm-tech-delivery{
-	height: 340px;
-	background: blue;
-	margin-bottom: 20px !important;
+.column.zm-tech-delivery{
+	height: 50px !important;
+	background: #644FA0;
+	margin-bottom: 20px;
+	margin: 0 10px 0 10px;
 }
 .zm-flash-deals-top{
 	height: 50px;
