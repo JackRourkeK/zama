@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/jquery.bxslider/jquery.bxslider.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.theme.default.min.css">
+	<link rel="shortcut icon" type="image/png" href="assets/ico/favicon.jpg"/>
 </head>
 <body>
 	<header class="ui grid zm-header-top">
@@ -23,7 +23,7 @@
 	<header class="ui grid zm-header">
 		<div class="row">
 			<div class="zm-header-bg" style="width: 34% !important;">
-				<img src="assets/img/bg.png" alt="Zama E-Commerce Website">
+				<img src="assets/img/zaamaa-logo.png" alt="Zama E-Commerce Website">
 			</div>
 			<div class="zm-search-box" style="width: 32% !important;">
 				<form action="#" method="post" name="zm-search-form" class="">
@@ -210,6 +210,19 @@
 			</div>
 		</div>
 	</div>
+	<footer class="ui grid column zm-footer">
+		<div class="column">
+			<div class="owl-carousel">
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+			</div>
+		</div>
+	</footer>
 </body>
 <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/semantic.min.js"></script>
@@ -230,24 +243,13 @@
 	});
 </script>
 <script>
-	var owl = $('.owl-carousel');
-	owl.owlCarousel({
-		margin: 10,
-		loop: true,
-		mouseDrag:false,
-		nav:true,
-		navText:['next','prev'],
-		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 3
-			}
-		}
-	})
+	$(document).ready(function(){
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			nav:true,
+			navElement:'Dots',
+			navText:["<i class=\"toggle left link icon\"></i>", "<i class=\"toggle right link icon\"></i>"]
+		});
+	});
 </script>
 </html>

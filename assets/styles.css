@@ -163,3 +163,12 @@ input[type="search"].zm-search{
 	clear: both;
 	width: 100%;
 }
+.column.zm-footer{
+	margin-left: 8%;
+	margin-right: 8%;
+	background: red;
+	/*height: 50px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 50px;
+}
