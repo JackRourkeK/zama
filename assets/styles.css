@@ -94,7 +94,7 @@ input[type="search"].zm-search{
 	height: 50px !important;
 	background: #644FA0;
 	margin-bottom: 20px;
-	margin: 0 10px 0 10px;
+	margin: 0;
 }
 .column.zm-win-watch{
 	color: #EC118E;
@@ -128,7 +128,7 @@ input[type="search"].zm-search{
 }
 .zm-flash-deals.column{
 	border-top: #E93B36 2px solid;
-	margin: 0 10px 0 10px;
+	margin: 0;
 }
 .ui.row.zm-ad-flash-deals{
 	background: #EDEFEF;
@@ -145,7 +145,16 @@ input[type="search"].zm-search{
 	height: 50px !important;
 	background: #644FA0;
 	margin-bottom: 20px;
-	margin: 0 10px 0 10px;
+	margin: 0;
+}
+.column.zm-tech-delivery2{
+	/*background: #644FA0;*/
+	margin-bottom: 20px;
+	margin: 0;
+}
+.column.zm-tech-delivery2 img{
+	float: left;
+	clear: both;
 }
 .zm-flash-deals-top{
 	height: 50px;
